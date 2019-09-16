@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">EasyTrig</string>
+  <string name="main_demo">Demo</string>
+  <string name="main_start">Practice</string>
+  <string name="main_calc">Calculate</string>
+  <string name="main_prefs">Preferences</string>
+  <string name="funcnames_title">Select Function Name</string>
+  <string name="funcargs_title">Select Function Argument</string>
+  <string name="funcargs_degArgs">Degree Arguments</string>
+  <string name="funcargs_radArgs">Radian Arguments</string>
+  <string name="prefs_displayAngle">Display Angle</string>
+  <string name="prefs_displayAngleSummaryOn">While in demo mode display angle at tip of current ray.</string>
+  <string name="prefs_displayAngleSummaryOff">While in demo mode do not display angle at tip of current ray.</string>
+  <string name="prefs_timeInterval">Time Interval</string>
+  <string name="prefs_timeIntervalSummary">Number of seconds between the presenting of each screen.</string>
+  <string name="prefs_sideLengths306090">30-60-90 Side Lengths</string>
+  <string name="prefs_sideLengths306090Summary">Side lengths for 30-60-90 triangles to use when displaying steps towards correct answer.</string>
+  <string name="prefs_sideLengths454590">45-45-90 Side Lengths</string>
+  <string name="prefs_sideLengths454590Summary">Side lengths for 45-45-90 triangles to use when displaying steps towards correct answer.</string>
+  <string-array name="prefs_sideLengths306090Options">
+    <item>1/2 - sqrt3/2 - 1</item>
+    <item>1 - sqrt3 - 2</item>
+    <item>sqrt3/3 - 1 - 2sqrt3/3</item>
+    <item>sqrt3 - 3 - 2sqrt3</item>
+  </string-array>
+  <string-array name="prefs_sideLengths306090OptionValues">
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+    <item>4</item>
+  </string-array>
+  <string name="prefs_sideLengths306090DefaultValue">2</string>
+  <string-array name="prefs_sideLengths454590Options">
+    <item>sqrt2/2 - sqrt2/2 - 1</item>
+    <item>1 - 1 - sqrt2</item>
+    <item>sqrt2 - sqrt2 - 2</item>
+  </string-array>
+  <string-array name="prefs_sideLengths454590OptionValues">
+    <item>5</item>
+    <item>6</item>
+    <item>7</item>
+  </string-array>
+  <string name="prefs_sideLengths454590DefaultValue">6</string>
+  <string name="prefs_numTries">Tries per Game</string>
+  <string name="prefs_numTriesSummary">Number of problem solving attempts per game.</string>
+</resources>

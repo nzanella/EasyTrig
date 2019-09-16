@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+  <item
+    android:state_pressed="true"
+    android:state_enabled="true"
+    android:drawable="@drawable/funcval_minus_frac_2sqrt3_3_pressed"/>
+  <item
+    android:state_focused="true"
+    android:state_enabled="true"
+    android:drawable="@drawable/funcval_minus_frac_2sqrt3_3_default"/>
+  <item
+    android:state_enabled="true"
+    android:drawable="@drawable/funcval_minus_frac_2sqrt3_3_default"/>
+</selector>

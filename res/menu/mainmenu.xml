@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  <item
+    android:id="@+id/demo"
+    android:title="@string/main_demo"></item>
+   <item
+    android:id="@+id/start"
+    android:title="@string/main_start"></item>
+   <item
+    android:id="@+id/calc"
+    android:title="@string/main_calc"></item>
+   <item
+    android:id="@+id/preferences"
+    android:title="@string/main_prefs"></item>
+</menu>

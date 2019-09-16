@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+  <CheckBoxPreference
+    android:key="displayAngle"
+    android:title="@string/prefs_displayAngle"
+    android:summaryOff="@string/prefs_displayAngleSummaryOff"
+    android:summaryOn="@string/prefs_displayAngleSummaryOn" />
+  <EditTextPreference
+    android:key="timeInterval"
+    android:title="@string/prefs_timeInterval"
+    android:summary="@string/prefs_timeIntervalSummary" />
+  <ListPreference
+    android:key="sideLengths306090"
+    android:title="@string/prefs_sideLengths306090"
+    android:summary="@string/prefs_sideLengths306090Summary"
+    android:entries="@array/prefs_sideLengths306090Options" 
+    android:entryValues="@array/prefs_sideLengths306090OptionValues"
+    android:defaultValue="@string/prefs_sideLengths306090DefaultValue"
+  />
+  <ListPreference
+    android:key="sideLengths454590"
+    android:title="@string/prefs_sideLengths454590"
+    android:summary="@string/prefs_sideLengths454590Summary"
+    android:entries="@array/prefs_sideLengths454590Options" 
+    android:entryValues="@array/prefs_sideLengths454590OptionValues"
+    android:defaultValue="@string/prefs_sideLengths454590DefaultValue"
+  />
+  <EditTextPreference
+    android:key="numTriesPerGame"
+    android:title="@string/prefs_numTries"
+    android:summary="@string/prefs_numTriesSummary" />
+</PreferenceScreen>

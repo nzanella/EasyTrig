@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  <!-- First row of numbers. -->
+  <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+      android:orientation="vertical"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+          android:id="@+id/funcval_minus_sqrt3"
+          android:background="@drawable/funcval_minus_sqrt3_selector"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+        <Button
+          android:id="@+id/funcval_minus_2"
+          android:background="@drawable/funcval_minus_2_selector"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+        <Button
+          android:id="@+id/funcval_undefined"
+          android:background="@drawable/funcval_undefined_selector"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+        <Button
+          android:id="@+id/funcval_plus_2"
+          android:background="@drawable/funcval_plus_2_selector"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+        <Button
+          android:id="@+id/funcval_plus_sqrt3"
+          android:background="@drawable/funcval_plus_sqrt3_selector"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+      </LinearLayout>
+      <!-- Second, third, fourth, fifth, and sixth row of numbers. -->
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <!-- Left column of second, third, fourth, fifth, and sixth rows of numbers. -->
+        <LinearLayout
+          android:orientation="vertical"
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent">
+          <Button
+            android:id="@+id/funcval_minus_sqrt2"
+            android:background="@drawable/funcval_minus_sqrt2_selector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+          <Button
+            android:id="@+id/funcval_minus_frac_2sqrt3_3"
+            android:background="@drawable/funcval_minus_frac_2sqrt3_3_selector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+          <Button
+            android:id="@+id/funcval_minus_1"
+            android:background="@drawable/funcval_minus_1_selector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+          <Button
+            android:id="@+id/funcval_minus_frac_sqrt3_2"
+            android:background="@drawable/funcval_minus_frac_sqrt3_2_selector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+          <Button
+            android:id="@+id/funcval_minus_frac_sqrt2_2"
+            android:background="@drawable/funcval_minus_frac_sqrt2_2_selector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        </LinearLayout>
+        <!-- Central content. -->
+        <LinearLayout
+          android:id="@+id/centralLinearLayout"
+          android:orientation="vertical"
+          android:background="#FFFFFF"
+          android:layout_weight="1"
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent">
+        </LinearLayout>
+        <!-- Right column of second, third, fourth, fifth, and sixth rows of numbers. -->
+        <LinearLayout
+          android:orientation="vertical"
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent">
+          <Button
+            android:id="@+id/funcval_plus_sqrt2"
+            android:background="@drawable/funcval_plus_sqrt2_selector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+          <Button
+            android:id="@+id/funcval_plus_frac_2sqrt3_3"
+            android:background="@drawable/funcval_plus_frac_2sqrt3_3_selector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+          <Button
+            android:id="@+id/funcval_plus_1"
+            android:background="@drawable/funcval_plus_1_selector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+          <Button
+            android:id="@+id/funcval_plus_frac_sqrt3_2"
+            android:background="@drawable/funcval_plus_frac_sqrt3_2_selector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+          <Button
+            android:id="@+id/funcval_plus_frac_sqrt2_2"
+            android:background="@drawable/funcval_plus_frac_sqrt2_2_selector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        </LinearLayout>
+      </LinearLayout>
+      <!-- Seventh row of function values. -->
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+          android:id="@+id/funcval_minus_frac_sqrt3_3"
+          android:background="@drawable/funcval_minus_frac_sqrt3_3_selector"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+        <Button
+          android:id="@+id/funcval_minus_frac_1_2"
+          android:background="@drawable/funcval_minus_frac_1_2_selector"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+        <Button
+          android:id="@+id/funcval_zero"
+          android:background="@drawable/funcval_zero_selector"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+        <Button
+          android:id="@+id/funcval_plus_frac_1_2"
+          android:background="@drawable/funcval_plus_frac_1_2_selector"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+        <Button
+          android:id="@+id/funcval_plus_frac_sqrt3_3"
+          android:background="@drawable/funcval_plus_frac_sqrt3_3_selector"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+      </LinearLayout>
+    </LinearLayout>
+  </ScrollView>
+</LinearLayout>

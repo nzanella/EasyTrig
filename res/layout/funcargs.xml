@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical">
+  <TextView
+    android:text="@string/funcargs_title"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center" />
+  <View
+    android:layout_width="match_parent"
+    android:layout_height="1dip"
+    android:background="?android:attr/listDivider" />
+  <TextView
+    android:text="@string/funcargs_degArgs"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#660066"
+    android:gravity="center" />  <ListView
+    android:id="@+id/funcArgsDegListView"
+    android:layout_weight="0.5"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+  <TextView
+    android:text="@string/funcargs_radArgs"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#660066"
+    android:gravity="center" />   <ListView
+    android:id="@+id/funcArgsRadListView"
+    android:layout_weight="0.5"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" /></LinearLayout>

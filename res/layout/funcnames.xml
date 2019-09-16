@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical">
+  <TextView
+    android:text="@string/funcnames_title"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center" />
+  <View
+    android:layout_width="match_parent"
+    android:layout_height="1dip"
+    android:background="?android:attr/listDivider" />
+  <LinearLayout
+    android:layout_weight="1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+      <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageButton
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:id="@+id/sinImageView"
+          android:src="@drawable/funcname_sin"
+          android:background="#ff00ff" />
+        <View
+          android:layout_width="match_parent"
+          android:layout_height="1dip"
+          android:background="?android:attr/listDivider" />
+        <ImageView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:id="@+id/cosImageView"
+          android:src="@drawable/funcname_cos"
+          android:background="#ff00ff" />        <View          android:layout_width="match_parent"          android:layout_height="1dip"          android:background="?android:attr/listDivider" />
+        <ImageView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:id="@+id/tanImageView"
+          android:src="@drawable/funcname_tan"
+          android:background="#ff00ff" />        <View          android:layout_width="match_parent"          android:layout_height="1dip"          android:background="?android:attr/listDivider" />
+        <ImageView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:id="@+id/secImageView"
+          android:src="@drawable/funcname_sec"
+          android:background="#ff00ff" />        <View          android:layout_width="match_parent"          android:layout_height="1dip"          android:background="?android:attr/listDivider" />
+        <ImageView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:id="@+id/cscImageView"
+          android:src="@drawable/funcname_csc"
+          android:background="#ff00ff" />        <View          android:layout_width="match_parent"          android:layout_height="1dip"          android:background="?android:attr/listDivider" />
+        <ImageView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:id="@+id/cotImageView"
+          android:src="@drawable/funcname_cot"
+          android:background="#ff00ff" />
+      </LinearLayout>
+    </ScrollView>
+  </LinearLayout>
+</LinearLayout>
