@@ -38,7 +38,7 @@ class TrigFuncs {
 
       case FUNC_NAME_COT:
 
-        return R.drawable.funcname_cos;
+        return R.drawable.funcname_cot;
 
     }
 
@@ -76,7 +76,7 @@ class TrigFuncs {
 
       case FUNC_NAME_COT:
 
-        return R.drawable.funcnamedef_cos;
+        return R.drawable.funcnamedef_cot;
 
     }
 
